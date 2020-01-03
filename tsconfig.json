@@ -1,0 +1,23 @@
+{
+  "extends": "@pascaliske/tsconfig",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "declaration": false,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "**/files/**"
+  ]
+}

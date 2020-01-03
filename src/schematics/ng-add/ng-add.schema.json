@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "@cupcake-ds/schematics/ng-add",
+    "title": "Add the schematic collection to your Angular project.",
+    "type": "object",
+    "properties": {},
+    "required": [],
+    "additionalProperties": false
+}

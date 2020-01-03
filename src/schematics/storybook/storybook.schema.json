@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "@cupcake-ds/schematics/storybook",
+    "title": "Integrate Storybook into your Angular project.",
+    "type": "object",
+    "properties": {
+        "skipInstall": {
+            "type": "boolean",
+            "description": "When true, does not install dependency packages.",
+            "default": false
+        },
+        "skipScript": {
+            "type": "boolean",
+            "description": "Skip npm script setup for prettier.",
+            "default": false
+        },
+        "config": {
+            "type": "string",
+            "description": "Specify the config folder for storybook.",
+            "default": ".storybook",
+            "x-prompt": "Specify the config folder for storybook. (default: .storybook)"
+        },
+        "name": {
+            "type": "string",
+            "description": "Specify the name for storybook.",
+            "x-prompt": "Specify the name for storybook."
+        },
+        "theme": {
+            "enum": ["light", "dark"],
+            "description": "Specify the theme for storybook.",
+            "default": "normal",
+            "x-prompt": "Specify the theme for storybook. (default: dark)"
+        },
+        "port": {
+            "type": "number",
+            "description": "Specify the port for storybook.",
+            "default": 9001,
+            "x-prompt": "Specify the port for storybook. (default: 9001)"
+        }
+    },
+    "required": ["name"],
+    "additionalProperties": false
+}
