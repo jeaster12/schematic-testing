@@ -13,7 +13,7 @@ export default function(_options: NgAddSchema): Rule {
         const { cli = {} } = workspace
 
         cli.defaultCollection = '@cupcake-ds/schematics'
-        cli.packageManager = 'yarn'
+        cli.packageManager = 'npm'
 
         return { ...workspace, cli }
     })

@@ -1,13 +1,10 @@
 {
     "name": "@cupcake-ds/schematics",
     "description": "Angular schematics collection for integrating setup tools like prettier and storybook.",
-    "version": "0.0.1",
+    "version": "0.0.6",
     "repository": {
-        "url": "https://github.com/@cupcake-ds/schematics",
+        "url": "https://github.com/jeaster12/schematic-testing",
         "type": "git"
-    },
-    "bugs": {
-        "url": "https://github.com/@cupcake-ds/schematics/issues"
     },
     "keywords": [
         "angular",

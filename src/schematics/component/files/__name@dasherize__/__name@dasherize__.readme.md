@@ -3,7 +3,7 @@
 ## Usage
 
 ```html
-<cmp-<%= dasherize(name) %>></cmp-<%= dasherize(name) %>>
+<spr-<%= dasherize(name) %>></spr-<%= dasherize(name) %>>
 ```
 
 ## Inputs / Outputs
